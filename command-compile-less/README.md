@@ -61,7 +61,7 @@ async function compileLESSFiles(args, files) {
     const cleanCSS = args.require('clean-css');
     // s. https://www.npmjs.com/package/fs-extra
     const fs = args.require('fs-extra');
-    // s. https://github.com/egodigital/vscode-powertools/blob/master/src/helpers.ts
+    // s. https://github.com/egomobile/vscode-powertools/blob/master/src/helpers.ts
     const helpers = args.require('./helpers');
     // s. https://www.npmjs.com/package/less
     const less = args.require('less');
@@ -137,7 +137,7 @@ async function compileLESSFiles(args, files) {
 async function scanForLessFiles(args, dir, files) {
     // s. https://www.npmjs.com/package/fs-extra
     const fs = args.require('fs-extra');
-    // s. https://github.com/egodigital/vscode-powertools/blob/master/src/helpers.ts
+    // s. https://github.com/egomobile/vscode-powertools/blob/master/src/helpers.ts
     const helpers = args.require('./helpers');
     const path = require('path');
 

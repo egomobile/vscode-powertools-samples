@@ -24,7 +24,7 @@ Now create a `test_button.js` file in the same folder and add the following skel
 
 ```javascript
 exports.execute = async (args) => {
-    // args => https://egodigital.github.io/vscode-powertools/api/interfaces/_contracts_.buttonactionscriptarguments.html
+    // args => https://egomobile.github.io/vscode-powertools/api/interfaces/_contracts_.buttonactionscriptarguments.html
 
     // s. https://code.visualstudio.com/api/references/vscode-api
     const vscode  = args.require('vscode');

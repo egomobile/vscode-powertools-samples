@@ -31,9 +31,9 @@ const path = require('path');
 
 
 exports.execute = async (args) => {
-  // args => https://egodigital.github.io/vscode-powertools/api/interfaces/_contracts_.buttonactionscriptarguments.html
+  // args => https://egomobile.github.io/vscode-powertools/api/interfaces/_contracts_.buttonactionscriptarguments.html
 
-  // s. https://github.com/egodigital/vscode-powertools/blob/master/src/helpers.ts
+  // s. https://github.com/egomobile/vscode-powertools/blob/master/src/helpers.ts
   // s. https://github.com/mkloubert/vscode-helpers
   const helpers = args.require('./helpers');
   // s. https://www.npmjs.com/package/opn
@@ -378,7 +378,7 @@ function relPath(p) {
 }
 
 async function tryGetSVG(args, dataProvider, throwOnError) {
-  // s. https://github.com/egodigital/vscode-powertools/blob/master/src/helpers.ts
+  // s. https://github.com/egomobile/vscode-powertools/blob/master/src/helpers.ts
   // s. https://github.com/mkloubert/vscode-helpers
   const helpers = args.require('./helpers');
   // s. https://www.npmjs.com/package/xml2js

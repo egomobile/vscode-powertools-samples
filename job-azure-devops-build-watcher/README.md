@@ -43,9 +43,9 @@ Create the file `azure-devops-build-watcher-job.js` inside `.vscode` subfolder a
 exports.execute = async (args) => {
     // s. https://lodash.com/
     const _ = args.require('lodash');
-    // s. https://egodigital.github.io/vscode-powertools/api/modules/_azure_.html
+    // s. https://egomobile.github.io/vscode-powertools/api/modules/_azure_.html
     const azure = args.require('./azure');
-    // s. https://egodigital.github.io/vscode-powertools/api/modules/_helpers_.html
+    // s. https://egomobile.github.io/vscode-powertools/api/modules/_helpers_.html
     //    https://github.com/mkloubert/vscode-helpers
     const helpers = args.require('./helpers');
     // s. https://www.npmjs.com/package/opn
@@ -69,7 +69,7 @@ exports.execute = async (args) => {
     const PROJECT = helpers.toStringSafe(args.options.project)
         .trim();
 
-    // s. https://egodigital.github.io/vscode-powertools/api/modules/_azure_.html#getazuredevopsapicredentials
+    // s. https://egomobile.github.io/vscode-powertools/api/modules/_azure_.html#getazuredevopsapicredentials
     // 
     // generate a personal access token for the REST API in your user settings:
     //    https://${organizationName}.visualstudio.com/_usersSettings/tokens

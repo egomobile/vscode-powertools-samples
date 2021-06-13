@@ -5,8 +5,7 @@
     "version": "0.0.2",
     "license": "MIT",
     "author": {
-        "email": "hello@e-go-digital.com",
-        "name": "e.GO Digital GmbH"
+        "name": "Next.e.GO Mobile SE"
     },
     "vue": true
 }
