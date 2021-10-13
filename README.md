@@ -1,6 +1,6 @@
 # vscode-powertools-samples
 
-A repository of samples, which demonstrates, how to use the [Power Tools](https://marketplace.visualstudio.com/items?itemName=egomobile.vscode-powertools.vscode-powertools) extension for [Visual Studio Code](https://code.visualstudio.com/).
+A repository of samples, which demonstrates, how to use the [Power Tools](marketplace.visualstudio.com/items?itemName=egomobile.vscode-powertools) extension for [Visual Studio Code](https://code.visualstudio.com/).
 
 ## [Apps](https://github.com/egodigital/vscode-powertools/wiki/Apps)
 
